@@ -20,6 +20,12 @@ header div {
   margin-right: auto;
 }
 
+header div p {
+  margin: auto;
+  text-align: center;
+  max-width: 900px;
+}
+
 body {
   background-color: hsl(0, 0%, 98%);
   margin-left: 30px;
@@ -27,6 +33,7 @@ body {
 }
 
 p {
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   color: hsl(229, 6%, 66%);
 }
@@ -43,6 +50,7 @@ h2 span {
 
 h3 {
   font-family: "Poppins", sans-serif;
+  font-size: 20px;
   font-weight: 200px;
   color: hsl(234, 12%, 34%);
 }
@@ -69,6 +77,14 @@ img {
   justify-content: center;
 }
 
+.featureCard img {
+  display: block;
+  margin-left: auto;
+}
+
+.featureCard p {
+  font-size: 16px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
